@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import DataBinding from "../views/DataBinding.vue";
+import DataBinding from "../views/showVue.vue";
 
 // url과 컴포넌트를 연결시키는 작업 : route
 const routes = [

@@ -37,6 +37,7 @@
       v-model="checking"
     />
     <!--checkbox는 checked라는 속성에 매핑. true/false -->
+    <!--checked가 true: true-value, false: false-value-->
   </p>
   <p>{{ valueModel }}, {{ numberModel }}, {{ city }}</p>
 </template>

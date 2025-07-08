@@ -9,7 +9,7 @@
     <router-link to="/data">Data link</router-link>
   </nav>
   <router-view />
-  <!--router 정보에 해당하는 컴포넌트가 위치한 곳-->
+  <!--router 정보에 해당하는 컴포넌트가 그려지는 곳-->
 </template>
 
 <!--style 영역-->

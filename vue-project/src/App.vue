@@ -10,7 +10,18 @@
   </nav>
   <router-view />
   <!--router 정보에 해당하는 컴포넌트가 그려지는 곳-->
+  <p>App.vu : {{ msg }}</p>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      msg: "",
+    };
+  },
+};
+</script>
 
 <!--style 영역-->
 <style>
